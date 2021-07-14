@@ -46,3 +46,35 @@ a {
 .banner-info a i {
   padding-left: 10px;
 }
+
+/* player part  */
+#player {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.player-full {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.players img {
+  width: 100%;
+}
+.players {
+  margin: 30px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player-details {
+  padding: 15px;
+}
+.player-details h3 {
+  font-size: 28px;
+  padding: 10px 0;
+}
+.player-details p {
+  font-size: 16px;
+}
+.player-content {
+  padding-bottom: 25px;
+}
