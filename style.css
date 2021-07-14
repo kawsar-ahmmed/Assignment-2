@@ -1,6 +1,48 @@
-body {
+/* common css */
+* {
   margin: 0;
   padding: 0;
-  text-decoration: none;
+}
+body {
   font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+/* banner part  */
+#banner {
+  display: flex;
+  justify-content: center;
+  background: #2d25a0;
+}
+.continer {
+  width: 1140px;
+}
+
+.banner-full {
+  display: flex;
+  justify-content: center;
+  padding: 85px 0;
+}
+.banner-info h1 {
+  padding-top: 60px;
+  color: #fff;
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.banner-info a {
+  padding: 10px 24px;
+  background: #e02c6d;
+  border-radius: 4px;
+  color: #fff;
+  text-transform: capitalize;
+}
+.banner-info a:hover {
+  background: #fff;
+  color: #e02c6d;
+  border: 1px solid #e02c6d;
+}
+.banner-info a i {
+  padding-left: 10px;
 }
