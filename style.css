@@ -168,6 +168,65 @@ a {
   font-size: 18px;
 }
 
+/* bonus part  */
+.bonus-img {
+  width: 60px;
+}
+.bonus-img path {
+  fill: #e02c6d;
+}
+.bonus-part:hover .bonus-img path {
+  fill: black;
+}
+.bonus-part-button {
+  padding-top: 30px;
+}
+.bonus-part-button a {
+  padding: 10px 24px;
+  background: #e02c6d;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.bonus-part-button a span {
+  font-weight: 800px;
+  padding-left: 10px;
+  padding-right: 2px;
+}
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner-content h2 {
+  font-size: 40px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #fff;
+}
+.banner-content p {
+  padding-bottom: 15px;
+  width: 80%;
+  text-align: center;
+  color: #fff;
+}
+.banner-content a {
+  padding: 10px 24px;
+  background: #e02c6d;
+  color: #fff;
+  border-radius: 4px;
+}
+#bonus-part-2 {
+  display: flex;
+  justify-content: center;
+  padding: 80px 0;
+  background-image: url("images/fb-g.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 40px 0;
+}
+
 /* ------- responsive part 
 ------------------------  */
 /* Mobile */
