@@ -18,6 +18,9 @@ a {
   background: #2d25a0;
   padding: 60px 0;
 }
+#banner:hover {
+  background: #110d53;
+}
 .container {
   width: 1140px;
 }
